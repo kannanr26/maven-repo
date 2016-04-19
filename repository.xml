@@ -1,0 +1,29 @@
+<repository lastmodified='20160419031409.280'>
+  <resource id='org.jitsi.sysactivity/5491.0.0' symbolicname='org.jitsi.sysactivity' presentationname='jitsi-sysactivity' uri='org/jitsi/jitsi-sysactivity/5491/jitsi-sysactivity-5491.jar' version='5491.0.0'>
+    <description>Main POM declaring build instructions and common dependencies of all Jitsi projects.</description>
+    <size>88670</size>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jitsi.sysactivity'/>
+      <p n='presentationname' v='jitsi-sysactivity'/>
+      <p n='version' t='version' v='5491.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='net.java.sip.communicator.service.sysactivity'/>
+      <p n='version' t='version' v='5491.0.0'/>
+      <p n='uses:' v='net.java.sip.communicator.service.sysactivity.event'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='net.java.sip.communicator.service.sysactivity.event'/>
+      <p n='version' t='version' v='5491.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.7,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jitsi.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jitsi.util;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=net.java.sip.communicator.util))' extend='false' multiple='false' optional='false'>Import package net.java.sip.communicator.util</require>
+    <require name='package' filter='(&amp;(package=org.jitsi.service.version)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jitsi.service.version;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jitsi.service.configuration)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jitsi.service.configuration;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jitsi.service.resources)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jitsi.service.resources;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=net.java.sip.communicator.service.resources))' extend='false' multiple='false' optional='false'>Import package net.java.sip.communicator.service.resources</require>
+  </resource>
+</repository>

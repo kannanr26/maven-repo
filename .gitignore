@@ -12,6 +12,8 @@
 hs_err_pid*
 /junit/*
 /org/apache/*
+org/abstractj/*
+/org/freedesktop/*
 /org/codehaus/*
 /org/sonatype/*
 /org/osgi/*
@@ -22,9 +24,13 @@ hs_err_pid*
 /org/igniterealtime/*
 /org/sample/*
 /org/slf4j/*
+/org/xmpp/*
 #/org/
 #/org/
 /classworlds/*
+/ch/*
+/dom4j/*
+/javax/*
 /backport-util-concurrent/*
 /biz/*
 /com/*
@@ -39,3 +45,4 @@ hs_err_pid*
 /net/*
 /oro/*
 /xpp3/*
+/xml-apis/*
