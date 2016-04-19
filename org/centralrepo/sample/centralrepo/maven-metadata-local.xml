@@ -4,8 +4,8 @@
   <artifactId>centralrepo</artifactId>
   <versioning>
     <versions>
-      <version>0.1-SNAPSHOT</version>
+      <version>0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20160419065441</lastUpdated>
+    <lastUpdated>20160419075401</lastUpdated>
   </versioning>
 </metadata>
