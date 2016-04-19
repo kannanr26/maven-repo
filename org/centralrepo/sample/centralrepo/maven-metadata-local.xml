@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.centralrepo.sample</groupId>
+  <artifactId>centralrepo</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160419052701</lastUpdated>
+  </versioning>
+</metadata>
