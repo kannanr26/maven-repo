@@ -9,7 +9,7 @@
 <properties>
     <github.global.server>mvn-repo</github.global.server>
 </properties>
-<distributionManagement>
+<!-- <distributionManagement>
     <repository>
         <id>mvn-repo</id>
         <name>Repository</name>
@@ -30,7 +30,7 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  
+   -->
 <dependencyManagement>
     <dependencies>
      <dependency>
@@ -126,7 +126,7 @@
     </pluginManagement>
     
   </build>
-<pluginRepositories>
+<!-- <pluginRepositories>
     <pluginRepository>
       <releases>
         <enabled>false</enabled>
@@ -138,8 +138,8 @@
       <name />
       <url>https://github.com/kannanr26/maven-repo/snapshots/</url>
     </pluginRepository>
-  </pluginRepositories>
-  <profiles>
+  </pluginRepositories> -->
+  <!-- <profiles>
     <profile>
         <id>release</id>
         <activation>
@@ -157,5 +157,5 @@
            </plugins>
         </build>
      </profile>
-  </profiles>
+  </profiles> -->
 </project>
