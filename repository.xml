@@ -1,7 +1,7 @@
-<repository lastmodified='20160419031409.280'>
+<repository lastmodified='20160419035640.840'>
   <resource id='org.jitsi.sysactivity/5491.0.0' symbolicname='org.jitsi.sysactivity' presentationname='jitsi-sysactivity' uri='org/jitsi/jitsi-sysactivity/5491/jitsi-sysactivity-5491.jar' version='5491.0.0'>
     <description>Main POM declaring build instructions and common dependencies of all Jitsi projects.</description>
-    <size>88670</size>
+    <size>88669</size>
     <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
     <capability name='bundle'>
       <p n='symbolicname' v='org.jitsi.sysactivity'/>
